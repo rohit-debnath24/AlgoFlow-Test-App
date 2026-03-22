@@ -5,7 +5,7 @@ const port = process.env.PORT || 8080; // Flux usually targets 8080
 app.get('/', (req, res) => {
   res.json({
     status: 'success',
-    message: 'Hogya hogyaaa dobara!',
+    message: 'rakesh rohit',
     timestamp: new Date().toISOString()
   });
 });
